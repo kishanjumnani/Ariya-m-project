@@ -1,442 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ariya</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ariya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"/>
 
-  <body>
-    <div class="wrap">
-      <header class="w-screen px-3 py-1 relative top-0 z-20">
-        <nav class="h-full flex justify-between items-center text-white">
-          <div class="logo pl-20">
-            <img src="assets/images/logo.svg" alt="Logo Ariya" class="" />
-          </div>
-          <ul class="flex pr-20 gap-6 items-center">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">INTRO</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">CALL ME</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li class="flex items-center gap-1">
-              <a href="#">ABOUT</a
-              ><img
-                src="assets/images/down-arrow.png"
-                class="h-2 cursor-pointer"
-              />
-            </li>
-            <li><a href="#">CONTACT</a></li>
-            <li class="flex gap-4">
-              <span class="block w-7 h-7 relative"
-                ><img src="assets/images/hexagon-green.svg" class="" /></span
-              ><span class="block w-7 h-7"
-                ><img src="assets/images/hexagon-green.svg" class=""
-              /></span>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="hero relative top-0 z-10">
-          <div
-            class="content text-white flex flex-col items-center gap-3 text-center w-screen"
-          >
-            <h1 class="">BUSINESS <span>SERVICES</span></h1>
-            <p>
-              Aria is a top consultancy company specializing in business growth
-              using online marketing and conversion optimization tactics
-            </p>
-            <a class="block" href="#">DISCOVER</a>
-          </div>
-        </div>
-      </main>
-      <section class="py-20 bg-red-500" id="intro">
-        <div class="container pl-20 py-20 flex justify-between items-center">
-          <div class="frst w-4/12">
-            <p class="text-green-500">INTRO</p>
-            <div class="flex flex-col gap-4 content_info">
-              <h2>
-                We Offer Some Of The Best Business Growth Services In Town
-              </h2>
-              <p>
-                Launching a new company or developing the market position of an
-                existing one can be quite an overwhelming processs at times.
-              </p>
-              <p>
-                "Our mission here at Aira is to get you through those tough
-                moments relying on our team's expertise in starting and growing
-                companies."
-              </p>
-              <p class="ceo">Louise Donovan - CEO</p>
-            </div>
-          </div>
-          <div class="second">
-            <img
-              src="assets/images/intro-office.jpg"
-              alt="Office"
-              class="w-127 h-82 rounded-sm"
-            />
-          </div>
-        </div>
-        <div class="lower flex gap-4 justify-evenly pl-20 py-10 items-center">
-          <div class="image_content flex flex-col gap-4">
-            <span class="icons w-24 h-24 block relative top-0"
-              ><i
-                class="fas fa-binoculars fa-stack-1x text-4xl absolute top-1/2 text-white"
-              ></i
-            ></span>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-            <h4>Environment Analysis</h4>
-            <p class="w-9/12">
-              The starting point of any success story is knowing your current
-              position in the business environment
-            </p>
-          </div>
-          <div class="image_content flex flex-col gap-4">
-            <span class="icons w-24 h-24 block relative top-0"
-              ><i
-                class="fas fa-list-alt fa-stack-1x text-4xl absolute top-1/2 text-white"
-              ></i
-            ></span>
-            <h4>Development Planning</h4>
-            <p class="w-9/12">
-              After completing the environmental analysis the next stage is to
-              design and plan your development strategyt
-            </p>
-          </div>
-          <div class="image_content flex flex-col gap-4">
-            <span class="icons w-24 h-24 block relative top-0"
-              ><i
-                class="fas fa-chart-pie fa-stack-1x text-4xl absolute top-1/2 text-white"
-              ></i
-            ></span>
-            <h4>Execution & Evaluation</h4>
-            <p class="w-9/12">
-              In this phase you will focus on executing the actions plan and
-              evaluating the results after each marketing campaign
-            </p>
-          </div>
+<body>
+  <div class="wrap">
+    <header class="w-screen px-20 py-2 h-[9vh] bg-[#113448] relative top-0 z-20">
+      <nav class="h-full flex justify-between items-center text-white">
+        <div class="logo ">
+          <img src="assets/images/logo.svg" alt="Logo Ariya" class="" />
         </div>
-      </section>
-      <section class="px-20 py-20" id="services">
-        <div class="container_services flex flex-col gap-3 items-center pb-10">
-          <p class="text-center text-green-500">SERVICES</p>
-          <h2 class="text-center">
-            Choose The Service Package That Suits Your Needs
-          </h2>
-          <div class="package_cards flex gap-4">
-            <div class="card flex flex-col items-center gap-4">
-              <img
-                src="assets/images/service-1.jpg"
-                alt="Business"
-                class="w-73 h-42 rounded-sm"
-              />
-              <h3>Off The Ground Off The Ground</h3>
-
-              <p>
-                Perfect for fresh ideas or young startups, this package will
-                help get the business off the ground
-              </p>
-              <ul>
-                <li>Environment and competition</li>
-                <li>Designing the marketing plan</li>
-              </ul>
-              <p>Starting at <span>$199</span></p>
-              <a href="#">Details</a>
-            </div>
-            <div class="card flex flex-col items-center gap-4">
-              <img
-                src="assets/images/services-2.jpg"
-                alt="Business"
-                class="w-73 h-42 rounded-sm"
-              />
-              <h3>Accelerated Growth</h3>
-              <p>
-                Use this service pack to give your company the necessary impulse
-                to become an industry leader
-              </p>
-              <ul>
-                <li>Business strategy planning</li>
-                <li>Taking the planned actions</li>
-              </ul>
-              <p>Starting at <span>$199</span></p>
-              <a href="#">Details</a>
-            </div>
-            <div class="card flex flex-col items-center gap-4 relative top-0">
-              <img
-                src="assets/images/services-3.jpg"
-                alt="Business"
-                class="w-73 h-42 rounded-sm"
-              />
-              <h3>Market Domination</h3>
-              <p>
-                You already are a reference point in your industry now you need
-                to learn about acquisitions
-              </p>
-              <ul>
-                <li>Maintaining the leader status</li>
-                <li>Acquisitions the right way</li>
-              </ul>
-              <p>Starting at <span>$199</span></p>
-              <a
-                href="#"
-                class="px-8 py-4 bg-green-500 rounded absolute details"
-                >Details</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="services_growth relative top-0 m-[0] h-[34.5rem] w-screen"
-        id="growth"
-      >
-        <div class="growth_box1"></div>
-        <div class="growth_box1a absolute top-0 right-0 w-[50%] h-[34.5rem]">
-          <div
-            class="content_growth_a flex flex-col gap-4 items-start pt-[4rem] pl-[6rem] w-[85%]"
-          >
-            <h2 class="text-left">
-              Accelerate Business Growth To Improve Revenue Numbers
-            </h2>
-            <div class="about">
-              <span class="mr-[1.8rem]">1</span
-              ><span class="text-left">How Can Aria Help Your</span>
-              <p class="pl-[2.2em] px-[2rem] text-left">
-                At Aria solutions, wve taken the consultancy concept one step
-                further by offering a full service management organization with
-                expertise.
-              </p>
-            </div>
-            <div class="about2">
-              <span class="mr-[1.8rem]">2</span
-              ><span>Great Strategic Business Planning</span>
-            </div>
-            <div class="about3">
-              <span class="mr-[1.8rem]">3</span
-              ><span>Online Marketing Campaigns</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="services_growth relative top-0 m-[0] h-[34.5rem] w-screen"
-        id="strength"
-      >
-        <div class="growth_box2a bg-green-500 absolute left-0"></div>
-        <div class="growth_box2 absolute top-[] right-0"></div>
-      </section>
-      <section class="px-20 py-20 bg-green-500" id="read_our_testinomial">
-        <div
-          class="content_testonimial flex flex-col items-center gap-6 bg-red-500"
-        >
-          <h2>Read Our Customer Testimonials</h2>
+        <ul class="flex gap-7">
+          <li class="hover:text-green-500"><a href="#">HOME</a></li>
+          <li class="hover:text-green-500"><a href="#intro">INTRO</a></li>
+          <li class="hover:text-green-500"><a href="#">SERVICES</a></li>
+          <li class="hover:text-green-500"><a href="#">CALL ME</a></li>
+          <li class="hover:text-green-500"><a href="#">PROJECTS</a></li>
+          <li class="flex items-center hover:text-green-500 gap-2">
+          <a href="#" class="">ABOUT</a><span><i class="fa-solid fa-angle-down curser-pointer text-white hover:text-green-500"></i></span>
+          </li>
+          <li class="hover:text-green-500"><a href="#">CONTACT</a></li>
+          <li class="flex gap-3">
+            <span
+              class="bg-[url('assets/images/hexagon-green.svg')] w-[26px] h-[26px] bg-center bg-no-repeat relative top-0"><a
+                href=""><i
+                  class="fa-brands fa-instagram absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white  hover:text-blue-500"></i></a>
+            </span>
+            <span
+              class="bg-[url('assets/images/hexagon-green.svg')] w-[26px] h-[26px] bg-center bg-no-repeat relative top-0">
+              <a href=""><i
+                  class="fa-brands fa-twitter absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white  hover:text-blue-500"></i></a>
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero relative top-0 z-10">
+        <div class="content text-white flex flex-col items-center gap-4 text-center w-screen">
+          <h1 class="">BUSINESS SERVICES</h1>
           <p>
-            Our clients are our partners and we can not imagine a better future
-            for our company without helping them reach their objectives
+            Aria is a top consultancy company specializing in business growth
+            using online marketing and conversion optimization tactics
           </p>
-          <div class="testonmial flex justify-center gap-10">
-            <div
-              class="nomial flex flex-col justify-center items-center w-[20%] text-center gap-5"
-            >
-              <img
-                src="assets/images/testimonial-1.jpg"
-                alt=""
-                class="block w-24 h-24 rounded-[50%]"
-              />
-              <p>
-                I purchased the Growth Accelerator service pack a few years ago
-                and I renewed the contract each year.
-              </p>
-              <p>Marsha Singer - Marketer</p>
+          <a href=""
+            class="px-10 py-3 bg-green-400 border-green-500 border-[2px] rounded-[8px] hover:bg-transparent hover:border-[2px] hover:border-green-400">DISCOVER</a>
+        </div>
+      </div>
+    </main>
+    <!-- /******************************* intro ****************************/ -->
+     <section class="pl-[10rem] py-[5rem] bg-[#FFFFFF]" id="intro">
+      <div class="container flex justify-between">
+        <div class="frst w-[30%] py-[5rem]">
+          <p class="text-green-500">INTRO</p>
+          <div class="flex flex-col gap-4 content_info">
+            <h2>
+              We Offer Some Of The Best Business Growth Services In Town
+            </h2>
+            <p>
+              Launching a new company or developing the market position of an
+              existing one can be quite an overwhelming processs at times.
+            </p>
+            <p>
+              "Our mission here at Aira is to get you through those tough
+              moments relying on our team's expertise in starting and growing
+              companies."
+            </p>
+            <p class="ceo">Louise Donovan - CEO</p>
+          </div>
+        </div>
+        <div class="second w-[55%] pr-[5rem]">
+          <img src="assets/images/intro-office.jpg" alt="Office" class="w-[600px] h-[420px] rounded-[10px] hover:durartion-[3ms]"/>
+        </div>
+      </div>
+      <div class="lower flex justify-between pt-[5rem] items-left gap-4">
+        <div class="image_content flex flex-col gap-4  text-left">
+          <span class="icons w-24 h-24 block relative top-0"><i
+              class="fas fa-binoculars fa-stack-1x text-4xl absolute top-1/2 text-white"></i></span>
+
+          <h4>Environment Analysis</h4>
+          <p class="w-9/12">
+            The starting point of any success story is knowing your current
+            position in the business environment
+          </p>
+        </div>
+        <div class="image_content flex flex-col gap-4">
+          <span class="icons w-24 h-24 block relative top-0"><i
+              class="fas fa-list-alt fa-stack-1x text-4xl absolute top-1/2 text-white"></i></span>
+          <h4>Development Planning</h4>
+          <p class="w-9/12">
+            After completing the environmental analysis the next stage is to
+            design and plan your development strategyt
+          </p>
+        </div>
+        <div class="image_content flex flex-col gap-4">
+          <span class="icons w-24 h-24 block relative top-0"><i
+              class="fas fa-chart-pie fa-stack-1x text-4xl absolute top-1/2 text-white"></i></span>
+          <h4>Execution & Evaluation</h4>
+          <p class="w-9/12">
+            In this phase you will focus on executing the actions plan and
+            evaluating the results after each marketing campaign
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /******************************* servicess ****************************/ -->
+
+    <section class="px-[10rem] py-[10rem] bg-[#FBFBFB]" id="services">
+      <div class="container_services flex flex-col gap-4 items-center">
+        <p class="text-green-500">SERVICES</p>
+        <h2 class="">
+          Choose The Service Package That Suits Your Needs
+        </h2>
+        <div class="package_cards flex gap-4">
+          <div class="card flex flex-col items-center gap-4 relative top-0">
+            <img src="assets/images/service-1.jpg" alt="Business" class="w-73 h-42 rounded-sm" />
+            <h3>Off The Ground Off The Ground</h3>
+
+            <p>
+              Perfect for fresh ideas or young startups, this package will
+              help get the business off the ground
+            </p>
+            <ul>
+              <li>Environment and competition</li>
+              <li>Designing the marketing plan</li>
+            </ul>
+            <p class="mb-[3rem] font-bold font-[Montserrat] text-black">Starting at <span class="text-green-500 font-bold">$199</span></p>
+            <a href="" class="px-9 py-3 bg-green-500 rounded absolute details border-[1px] border-green-500 hover:bg-white">Details</a>
+          </div>
+          <div class="card flex flex-col items-center gap-5 relative top-0">
+            <img src="assets/images/services-2.jpg" alt="Business" class="w-73 h-42 rounded-sm" />
+            <h3>Accelerated Growth</h3>
+            <p>
+              Use this service pack to give your company the necessary impulse
+              to become an industry leader
+            </p>
+            <ul>
+              <li>Business strategy planning</li>
+              <li>Taking the planned actions</li>
+            </ul>
+            <p class="mb-[3rem] font-bold font-[Montserrat] text-black">Starting at <span class="text-green-500 font-bold">$199</span></p>
+            <a href="" class="px-9 py-3 bg-green-500 rounded absolute details border-[1px] border-green-500 hover:bg-white">Details</a>
+
+          </div>
+          <div class="card flex flex-col items-center gap-4 relative top-0">
+            <img src="assets/images/services-3.jpg" alt="Business" class="w-73 h-42 rounded-sm" />
+            <h3>Market Domination</h3>
+            <p>
+              You already are a reference point in your industry now you need
+              to learn about acquisitions
+            </p>
+            <ul class="s">
+              <li>Maintaining the leader status</li>
+              <li>Acquisitions the right way</li>
+            </ul>
+            <p class="mb-[3rem] font-bold font-[Montserrat] text-black">Starting at <span class="text-green-500 font-bold">$199</span></p>
+            <a href="" class="px-9 py-3 bg-green-500 rounded absolute details border-[1px] border-green-500 hover:bg-white">Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="services_growth  w-screen grid" id="growth">
+      
+      <div class="growth_box1"></div>
+      
+      <div class="growth_box1a">
+        <div class="content_growth_a flex flex-col gap-4 items-start pt-[4rem] pl-[6rem] w-[85%]">
+          <h2 class="text-left">
+            Accelerate Business Growth To Improve Revenue Numbers
+          </h2>
+          <div class="about">
+            <span class="mr-[1.8rem]">1</span><span class="text-left">How Can Aria Help Your</span>
+            <p class="pl-[2.2em] px-[2rem] text-left">
+              At Aria solutions, wve taken the consultancy concept one step
+              further by offering a full service management organization with
+              expertise.
+            </p>
+          </div>
+          <div class="about2">
+            <span class="mr-[1.8rem]">2</span><span>Great Strategic Business Planning</span>
+          </div>
+          <div class="about3">
+            <span class="mr-[1.8rem]">3</span><span>Online Marketing Campaigns</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="growth_box2a bg-grey-500">
+        <div class="content_growth_a flex flex-col gap-4 items-start pt-[4rem] pl-[6rem] w-[85%]">
+          <h2 class="text-left">
+            Accelerate Business Growth To Improve Revenue Numbers
+          </h2>
+          <div class="about">
+            <span class="mr-[1.8rem]">1</span><span class="text-left">How Can Aria Help Your</span>
+            <p class="pl-[2.2em] px-[2rem] text-left">
+              At Aria solutions, wve taken the consultancy concept one step
+              further by offering a full service management organization with
+              expertise.
+            </p>
+          </div>
+          <div class="about2">
+            <span class="mr-[1.8rem]">2</span><span>Great Strategic Business Planning</span>
+          </div>
+          <div class="about3">
+            <span class="mr-[1.8rem]">3</span><span>Online Marketing Campaigns</span>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="growth_box2"></div>
+    </section>
+    <section class="px-20 py-20 bg-green-500" id="read_our_testinomial">
+      <div class="content_testonimial flex flex-col items-center gap-6 bg-red-500">
+        <h2>Read Our Customer Testimonials</h2>
+        <p>
+          Our clients are our partners and we can not imagine a better future
+          for our company without helping them reach their objectives
+        </p>
+        <div class="testonmial flex justify-center gap-10">
+          <div class="nomial flex flex-col justify-center items-center w-[20%] text-center gap-5">
+            <img src="assets/images/testimonial-1.jpg" alt="" class="block w-24 h-24 rounded-[50%]" />
+            <p>
+              I purchased the Growth Accelerator service pack a few years ago
+              and I renewed the contract each year.
+            </p>
+            <p>Marsha Singer - Marketer</p>
+          </div>
+          <div class="nomial flex flex-col gap-4 items-center w-[20%] text-center">
+            <img src="assets/images/testimonial-2.jpg" alt="" class="block w-24 h-24 rounded-[50%]" />
+            <p>
+              I purchased the Growth Accelerator service pack a few years ago
+              and I renewed the contract each year.
+            </p>
+            <p>Roy Smith - Developer</p>
+          </div>
+          <div class="nomial flex flex-col gap-4 items-center w-[20%] text-center">
+            <img src="assets/images/testimonial-3.jpg" alt="" class="block w-24 h-24 rounded-[50%]" />
+            <p>
+              I purchased the Growth Accelerator service pack a few years ago
+              and I renewed the contract each year.
+            </p>
+            <p>Roy Smiths - Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="px-20 py-20 bg-yellow-500" id="callme">
+      <div class="content_callme flex justify-between">
+        <div class="callmezone">
+          <p>callme</p>
+          <h2>Have Us Contact You By Filling And Submitting The Form</h2>
+          <p>
+            You are just a few steps away from a personalized offer. Just fill
+            in the form and send it to us and we'll get right back with a call
+            to help you decide what service package works.
+          </p>
+          <ol>
+            <li>It's very easy just fill in the form so we can call</li>
+            <li>During the call we'll require some info about the company</li>
+            <li>Don't hesitate to email us for any questions or inquiries</li>
+          </ol>
+        </div>
+        <div class="formzone">
+          <form>
+            <div class="form">
+              <input type="text"><label for="name">Name:</label>
             </div>
-            <div
-              class="nomial flex flex-col gap-4 items-center w-[20%] text-center"
-            >
-              <img
-                src="assets/images/testimonial-2.jpg"
-                alt=""
-                class="block w-24 h-24 rounded-[50%]"
-              />
-              <p>
-                I purchased the Growth Accelerator service pack a few years ago
-                and I renewed the contract each year.
-              </p>
-              <p>Roy Smith - Developer</p>
+            <div class="form">
+              <input type="text"><label for="name">Name:</label>
             </div>
-            <div
-              class="nomial flex flex-col gap-4 items-center w-[20%] text-center"
-            >
-              <img
-                src="assets/images/testimonial-3.jpg"
-                alt=""
-                class="block w-24 h-24 rounded-[50%]"
-              />
-              <p>
-                I purchased the Growth Accelerator service pack a few years ago
-                and I renewed the contract each year.
-              </p>
-              <p>Roy Smiths - Developer</p>
+            <div class="form">
+              <input type="text"><label for="name">Name:</label>
+            </div>
+            <div class="form">
+              <select>
+                <option value="company">Off The Ground</option>
+                <option value="company">Accelerated Growth</option>
+                <option value="company">Market Domination</option>
+              </select>
+            </div>
+            <div class="form">
+              <input type="checkbox">I agree with Aria's stated <a href="">Privacy Policy </a>and<a href="">Terms &
+                Conditions</a>
+            </div>
+            <div class="form">
+              <button type="submit">CALL ME</button </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- /******************************* projects ****************************/ -->
+    <section class="px-20 py-20" id="projects">
+      <div class="content_project flex flex-col gap-3 items-center">
+        <div class="tittle"></div>
+        <h2>Projects That We're Proud Of</h2>
+        <div class="filter_project">
+          <span>Show All</span>
+          <span>Design</span>
+          <span>Developmrnt</span>
+          <span>Marketing</span>
+          <span>SEO</span>
+        </div>
+        <div class="project_gallery_list mt-20">
+          <img src="assets/images/project-1.jpg" alt="Project 1" class="block" /><span
+            class="hidden relative top-[50%] left-[-50%] translate-y-[0] translate-x-[-25%]">Online Banking</span>
+          <img src="assets/images/project-2.jpg" alt="Project 1" class="block" /><span class="hidden">Classic
+            Industry</span>
+          <img src="assets/images/project-3.jpg" alt="Project 1" class="block" /><span class="hidden">boombap
+            Audio</span>
+          <img src="assets/images/project-4.jpg" alt="Project 1" class="block" /><span class="hidden">Van Mose</span>
+          <img src="assets/images/project-5.jpg" alt="Project 1" class="block" /><span class="hidden">Joy Moment</span>
+          <img src="assets/images/project-6.jpg" alt="Project 1" class="block" /><span class="hidden">Spark Event</span>
+          <img src="assets/images/project-7.jpg" alt="Project 1" class="block" /><span class="hidden">Zazoo App</span>
+          <img src="assets/images/project-8.jpg" alt="Project 1" class="block" /><span class="hidden">Casua Wear</span>
+        </div>
+      </div>
+    </section>
+    <section class="team_consultant px-20 py-20 bg-pink-400">
+      <div class="content_teammates bg-green-500">
+        <div class="tittle_team flex flex flex-col gap-4 items-center">
+          <h2>Our Team Of Consultants</h2>
+          <p>We're only as strong and as knowledgeable as our team. So here are the men and women which help customers
+            meet goals and grow companies</p>
+          <div class="team_name flex justify-evenly items-center">
+            <div class="nam1 flex flex-col gap-4">
+              <img src="assets/images/team-1.png" alt="" />
+              <p>John Whitelong</p>
+              <p>General Manager</p>
+              <div class="social_link"><span></span></div>
+            </div>
+            <div class="nam1 flex flex flex-col gap-4">
+              <img src="assets/images/team-2.png" alt="" />
+              <p>Veronique Smith</p>
+              <p>Business Developer</p>
+              <div class="social_link"><span></span></div>
+            </div>
+            <div class="nam1 flex flex flex-col gap-4">
+              <img src="assets/images/team-3.png" alt="" />
+              <p>Chris Zimerman</p>
+              <p>Online Maarketer</p>
+              <div class="social_link"><span></span></div>
+            </div>
+            <div class="nam1 flex flex flex-col gap-4">
+              <img src="assets/images/team-4.png" alt="" />
+              <p>Mary Villalongag</p>
+              <p>Community Manager</p>
+              <div class="social_link"><span></span></div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="px-20 py-20 bg-yellow-500" id="callme">
-        <div class="content_callme flex justify-between">
-          <div class="callmezone">
-            <p>callme</p>
-            <h2>Have Us Contact You By Filling And Submitting The Form</h2>
-            <p>
-              You are just a few steps away from a personalized offer. Just fill
-              in the form and send it to us and we'll get right back with a call
-              to help you decide what service package works.
-            </p>
-            <ol>
-              <li>It's very easy just fill in the form so we can call</li>
-              <li>During the call we'll require some info about the company</li>
-              <li>Don't hesitate to email us for any questions or inquiries</li>
+      </div>
+
+    </section>
+   
+    <section class="px-20 py-20 bg-yellow-500" id="about">
+      <div class="content_about bg-red-500 flex items-center justify-between">
+        <div class="about_image">
+          <img src="assets/images/about.jpg" alt="" />
+        </div>
+        <div class="about_info bg-green-500 flex flex-col items-start text-left px-10">
+          <p>ABOUT</p>
+          <h2>We're Passionate About Delivering Growth Services</h2>
+          <p>Our goal is to provide the right business growth services at the appropriate time so companies can benefit
+            from the created momentum and thrive for a long period of time</p>
+          <ol class="px-10">
+            <li>Everything we recommend has direct positive impact</li>
+            <li>You will become an important partner of our company</li>
+
+          </ol>
+          <div class="figures flex">
+            <div class="f1 flex">
+              <p class="f_number">231</p>
+              <div class="feedback"><span class="block">Happy</span><span class="block">User</span></div>
+            </div>
+            <div class="f2 flex">
+              <p class="f_number">121</p>
+              <div class="feedback"> <span class="block">Issue</span><span class="block">Solved</span></div>
+            </div>
+            <div class="f2 flex">
+              <p class="f_number">159</p>
+              <div class="feedback"> <span class="block">Good</span><span class="block">Reviews</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+   
+    <!-- /******************************* contact ****************************/ -->
+
+    <!-- <section class="bg-red-500" id="Contact">
+
+      <div class="content_callme flex justify-between px-20 py-20">
+        <div class="contact_detail w-[45%]">
+          <p class="section_tittle mb-[8px]">Contact</p>
+          <div class="heading flex flex-col gap-2 pb-[2rem]">
+            <h2 class="mr-[22px]">Get In Touch Using The Form</h2>
+            <p>You can stop by our office for a cup of coffee and just use the contact form below for any questions and
+              inquiries</p>
+            <span class="block"><i class="fa-solid fa-location-dot text-green-500 mr-[10px]"></i>22nd Innovative Street, San Francisco, CA 94043, US</span>
+            <ol class="flex gap-4">
+              <li><a href="">+91 1232332</a></li>
+              <li><a href="">+91 1232332</a></li>
+              <li><a href="">office@yahoomail.com</a></li>
             </ol>
           </div>
-          <div class="formzone">
-            <form>
-            <div class="form">
-                <input type="text"><label for="name">Name:</label>
-            </div>
-            <div class="form">
-                <input type="text"><label for="name">Name:</label>
-            </div>
-            <div class="form">
-                <input type="text"><label for="name">Name:</label>
-            </div>
-            <div class="form">
-                <select>
-                    <option value="company">Off The Ground</option>
-                    <option value="company">Accelerated Growth</option>
-                    <option value="company">Market Domination</option>
-                </select>
-            </div>
-            <div class="form">
-                <input type="checkbox">I agree with Aria's stated <a href="" >Privacy Policy </a>and<a href="" >Terms & Conditions</a>
-            </div>
-            <div class="form">
-                <button type="submit">CALL ME</button
-            </div>
+          <h3 class="pl-[0.75rem]">Follow Aria On Social Media</h3>
+            <div class="social_links flex gap-4 pt-[1rem] pl-[1rem]">
+            <span
+              class="block bg-[url('assets/images/hexagon-green.svg')] w-[52px] h-[52px] bg-center bg-no-repeat relative top-0"><i class="fa-brands fa-facebook-f text-white text-[1.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></i></span>
+            <span
+              class="block bg-[url('assets/images/hexagon-green.svg')] w-[52px] h-[52px] bg-center bg-no-repeat relative top-0"><i class="fa-brands fa-twitter text-white text-[1.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></i></span>
+            <span
+              class="block bg-[url('assets/images/hexagon-green.svg')] w-[52px] h-[52px] bg-center bg-no-repeat relative top-0"><i class="fa-brands fa-pinterest text-white text-[1.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></i></span>
+            <span
+              class="block bg-[url('assets/images/hexagon-green.svg')] w-[52px] h-[52px] bg-center bg-no-repeat relative top-0"><i class="fa-brands fa-instagram text-white text-[1.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></i></span>
+            <span
+              class="block bg-[url('assets/images/hexagon-green.svg')] w-[52px] h-[52px] bg-center bg-no-repeat relative top-0"><i class="fa-brands fa-linkedin text-white text-[1.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></i></span>
+            <span
+              class="block bg-[url('assets/images/hexagon-green.svg')] w-[52px] h-[52px] bg-center bg-no-repeat relative top-0"><i class="fa-brands fa-behance text-white text-[1.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></i></span>
             
+          </div>
+
+        </div>
+         <div class="contact_form width-[60%]">
+          <div class="form">
+            <form action="" class="flex flex-col gap-3">
+              <input type="text" name="" class="block">
+              <input type="text" name="" class="block">
+              <textarea name="message" class="block"></textarea>
             </form>
           </div>
-        </div>
-      </section>
-      <section class="px-20 py-20" id="projects">
-        <div class="content_project flex flex-col gap-3 items-center">
-            <div class="tittle"></div>
-            <h2>Projects That We're Proud Of</h2>
-            <div class="filter_project">
-                <span>Show All</span>
-                <span>Design</span>
-                <span>Developmrnt</span>
-                <span>Marketing</span>
-                <span>SEO</span>
-            </div>
-            <div class="project_gallery_list mt-20">
-                <img src="assets/images/project-1.jpg" alt="Project 1"class="block"/><span class="hidden relative top-[50%] left-[-50%] translate-y-[0] translate-x-[-25%]">Online Banking</span>
-                <img src="assets/images/project-2.jpg" alt="Project 1"class="block"/><span class="hidden">Classic Industry</span>
-                <img src="assets/images/project-3.jpg" alt="Project 1"class="block"/><span class="hidden">boombap Audio</span>
-                <img src="assets/images/project-4.jpg" alt="Project 1"class="block"/><span class="hidden">Van Mose</span>
-                <img src="assets/images/project-5.jpg" alt="Project 1"class="block"/><span class="hidden">Joy Moment</span>
-                <img src="assets/images/project-6.jpg" alt="Project 1"class="block"/><span class="hidden">Spark Event</span>
-                <img src="assets/images/project-7.jpg" alt="Project 1"class="block"/><span class="hidden">Zazoo App</span>
-                <img src="assets/images/project-8.jpg" alt="Project 1"class="block"/><span class="hidden">Casua Wear</span>
-            </div>
-        </div>
-      </section>
-      <section class="team_consultant px-20 py-20 bg-pink-400">
-        <div class="content_teammates bg-green-500">
-            <div class="tittle_team flex flex flex-col gap-4 items-center">
-                <h2>Our Team Of Consultants</h2>
-                <p>We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
-                <div class="team_name flex justify-evenly items-center">
-                    <div class="nam1 flex flex-col gap-4">
-                        <img src="assets/images/team-1.png" alt="" />
-                        <p>John Whitelong</p>
-                        <p>General Manager</p>
-                        <div class="social_link"><span></span></div>
-                    </div>
-                    <div class="nam1 flex flex flex-col gap-4">
-                        <img src="assets/images/team-2.png" alt="" />
-                        <p>Veronique Smith</p>
-                        <p>Business Developer</p>
-                        <div class="social_link"><span></span></div>
-                    </div>
-                    <div class="nam1 flex flex flex-col gap-4">
-                        <img src="assets/images/team-3.png" alt="" />
-                        <p>Chris Zimerman</p>
-                        <p>Online Maarketer</p>
-                        <div class="social_link"><span></span></div>
-                    </div>
-                    <div class="nam1 flex flex flex-col gap-4">
-                        <img src="assets/images/team-4.png" alt="" />
-                        <p>Mary Villalongag</p>
-                        <p>Community Manager</p>
-                        <div class="social_link"><span></span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-      </section>
-      <section class="px-20 py-20 bg-yellow-500"id="about">
-        <div class="content_about bg-red-500 flex items-center justify-between">
-            <div class="about_image">
-                <img src="assets/images/about.jpg" alt="" />
-            </div>
-            <div class="about_info bg-green-500 flex flex-col items-start text-left px-10">
-                <p>ABOUT</p>
-                <h2>We're Passionate About Delivering Growth Services</h2>
-                <p>Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time</p>
-                <ol class="px-10">
-                    <li>Everything we recommend has direct positive impact</li>
-                    <li>You will become an important partner of our company</li>
-
-                </ol>
-                <div class="figures flex">
-                    <div class="f1 flex">
-                        <p class="f_number">231</p>
-                        <div class="feedback"><span class="block">Happy</span><span class="block">User</span></div>
-                    </div>
-                    <div class="f2 flex">
-                        <p class="f_number">121</p>
-                        <div class="feedback">  <span class="block">Issue</span><span class="block">Solved</span></div>
-                    </div>
-                    <div class="f2 flex">
-                        <p class="f_number">159</p>
-                        <div class="feedback">    <span class="block">Good</span><span class="block">Reviews</span></div>
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
+    </section> -->
 
-      </section>
-      <section>
+    <!-- /******************************* footer ****************************/ -->
+    <footer class="px-50 pt-20 pb-10 bg-blue-600 text-white">
+      <div class="contain_footer flex justify-between mb-20 gap-10">
+        <div class="description w-[50%] flex flex-col  gap-1">
+          <h4>Few Words About Aria</h4>
+          <p>We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+          
+        </div>
+        <div class="links flex flex-col gap-2">
+          <h4>Links</h4>
+          <a href="" class="block underline">Terms & Conditions</a>
+          <a href="" class="block underline">Privacy Policy</a>
+        </div>
+        <div class="contain_footer flex flex-col gap-2">
+          <h4>Tools</h4>
+          <a href="" class="block underline">businessgrowth.com</a>
+          <a href="" class="block underline">influencers.com</a>
+          <a href="" class="block underline">optimizer.net</a>
+        </div>
+        <div class="partners  flex flex-col gap-2 ">
+          <h4>Partners</h4>
+          <a href="" class="block underline">unicorns.com</a>
+          <a href="" class="block underline" >staffmanager.com</a>
+          <a href="" class="block underline">association.gov
 
-      </section>
-    </div>
-  </body>
+          </a>
+        </div>
+      </div>
+      <p class="text-center">Copyright&copy; 2024 All rights reserved | Designed by <a href="#">Kishan jumnani</a></p>
+    </footer> 
+
+
+  </div>
+</body>
+
 </html>

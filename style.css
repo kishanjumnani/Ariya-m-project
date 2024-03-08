@@ -8,30 +8,31 @@
 body{
     overflow-x: hidden;
 }
-
-header {
-    background-color: #113448;
-    height: 10vh;
+.nav ul{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "	OpenSans", "sans-serif";
+    color: white;
 }
-
 .logo img {
     width: 7.0624rem;
     height: 2rem;
 }
 
 .hero {
-    padding-top: 12.75rem;
-    padding-bottom: 30.5rem;
+    padding-top: 10rem;
+    padding-bottom: 20.5rem;
     background-image: url(assets/images/header-background.jpg);
     background-repeat: no-repeat;
 
     background-position: center;
     background-size: cover;
     color: #fff;
+    width:100vw;
 }
 
 .content {
-    width: 55%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6.5rem;
@@ -62,6 +63,7 @@ header {
     text-size-adjust: 100%;
     color: rgb(72, 74, 70);
 }
+
 .content_info p {
     color: rgb(120, 121, 118);
     text-align: left;
@@ -79,17 +81,7 @@ header {
     line-height: 25px;
     color: rgb(0, 0, 0);  
 }
-.container_services h2{
-    width: 40%;
-    font-size: 28px;;
-    font-weight: 700;
-    font-family: "Montserrat", "sans-serif";
-    text-align: center;
-    text-size-adjust: 100%;
-    line-height: 34px;
-    color:#484a46;
 
-}
 .image_content .icons{
     background-image: url(assets/images/hexagon-green.svg);
     background-repeat: no-repeat;
@@ -109,19 +101,81 @@ header {
     border-radius: 10px;
     z-index: 1;
 }
-section #services{
-    background-color: #fbfbfb;
+/******************************* intro****************************/
+
+.lower h4{
+   font-size: 20px;;
+    font-weight: 700;
+    font-family: "Montserrat", "sans-serif";
+   line-height: 26px;
+    color:#484a46;
+}
+.lower p{
+    color: rgb(120, 121, 118);
+text-align: left;
+text-size-adjust: 100%;
+line-height: 26px;
+font-family:"Open Sans", sans-serif;
+font-size: 1rem;
+}
+/******************************* Services ****************************/
+
+.container_services h2{
+    text-align: center;
+    width: 60%;
+    font-size: 28px;;
+    font-weight: 700;
+    font-family: "Montserrat", "sans-serif";
+    
+    text-size-adjust: 100%;
+    line-height: 34px;
+    color :rgb(72, 74, 70)
 }
 .card .details{
     z-index: 2;
     bottom: -2rem;
 }
+.card h3{
+    font-size: 22px;
+        font-weight: 700;
+        font-family: "Montserrat", "sans-serif";
+        line-height: 28px;
+        text-align: center;
+        width: 80%;
+        text-size-adjust: 100%;
+        color: rgb(72, 74, 70);
+    
+}
+.card p{
+    width: 80%;
+color: rgb(120, 121, 118);
+text-align: center;
+text-size-adjust: 100%;
+line-height: 26px;
+font-family:"Open Sans", sans-serif;
+font-size: 1rem;
+}
+.card li{
+    list-style: square;
+    
+    color: rgb(120, 121, 118);
+    text-align: left;
+    text-size-adjust: 100%;
+    line-height: 26px;
+    font-family:"Open Sans", sans-serif;
+    font-size: 1rem;
+    
+}
+ul li::marker {
+    color: rgb(4, 151, 4);
+    font-size: 1.5em;
+  }
 /* transform:translate */
 
-/* .services_growth{
+.services_growth{
     grid-template-columns: repeat(2,50vw);
     grid-template-rows: repeat(2,34.5rem);
-} */
+}
 .growth_box1{
     background: url(assets/images/details-1-background.jpg);
     background-position: center;
@@ -153,6 +207,74 @@ section #services{
     }
     .about_info li{
         list-style: square;
-        
     }
+    /*********** contact  *************/
+    .heading h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        font-family: "Montserrat (woff2)", "sans-serif";
+        line-height: 2.15rem;
+        text-align: left;
+        text-size-adjust: 100%;
+        color: rgb(72, 74, 70);
+    }
+    .heading p{
+       color: rgb(120, 121, 118);
+    text-align: left;
+    text-size-adjust: 100%;
+    line-height: 22px;
+    font-family:"Open Sans", sans-serif;
+    }
+    .content_callme h3 {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Montserrat", "sans-serif";
+        line-height: 28px;
+        text-align: left;
+        text-size-adjust: 100%;
+        color: rgb(72, 74, 70);
+    }
+    .heading ol a,span{
+        color: rgb(120, 121, 118);
+        text-align: left;
+        text-size-adjust: 100%;
+        line-height: 26px;
+        font-family:"Open Sans", sans-serif;
+        font-size: 1rem;
+    }
+
+
+
+
+    /* footer */
+    .contain_footer h4{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgb(255, 255, 255);
+
+    }
+    .contain_footer p,a{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+         tab-size: 4;
+        }
+       .section_tittle{
+        color:rgb(20, 191, 152);
+        text-align: left;
+        line-height: 18px;
+        font-weight: 500;
+        }
+         .contain_footer p,a{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+         tab-size: 4;
+        }
+    
 
